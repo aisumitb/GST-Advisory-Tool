@@ -1,44 +1,44 @@
 [
   {
-    "Keyword": "mobile",
-    "HSN/SAC": 8517,
-    "GST Rate": "18%",
-    "Description / Tariff Heading": "Telecommunication Equipment"
+    "keyword": "mobile",
+    "hsn": "8517",
+    "rate": "18%",
+    "tariff": "Telecommunication Equipment"
   },
   {
-    "Keyword": "computer",
-    "HSN/SAC": 8471,
-    "GST Rate": "18%",
-    "Description / Tariff Heading": "Automatic Data Processing Machines"
+    "keyword": "computer",
+    "hsn": "8471",
+    "rate": "18%",
+    "tariff": "Automatic Data Processing Machines"
   },
   {
-    "Keyword": "food",
-    "HSN/SAC": 9963,
-    "GST Rate": "5%",
-    "Description / Tariff Heading": "Restaurant and Food Services"
+    "keyword": "food",
+    "hsn": "9963",
+    "rate": "5%",
+    "tariff": "Restaurant and Food Services"
   },
   {
-    "Keyword": "construction",
-    "HSN/SAC": 9954,
-    "GST Rate": "18%",
-    "Description / Tariff Heading": "Construction Services"
+    "keyword": "construction",
+    "hsn": "9954",
+    "rate": "18%",
+    "tariff": "Construction Services"
   },
   {
-    "Keyword": "consulting",
-    "HSN/SAC": 9983,
-    "GST Rate": "18%",
-    "Description / Tariff Heading": "Professional and Advisory Services"
+    "keyword": "consulting",
+    "hsn": "9983",
+    "rate": "18%",
+    "tariff": "Professional and Advisory Services"
   },
   {
-    "Keyword": "textile",
-    "HSN/SAC": 5208,
-    "GST Rate": "5%",
-    "Description / Tariff Heading": "Cotton Fabrics"
+    "keyword": "textile",
+    "hsn": "5208",
+    "rate": "5%",
+    "tariff": "Cotton Fabrics"
   },
   {
-    "Keyword": "medicine",
-    "HSN/SAC": 3004,
-    "GST Rate": "12%",
-    "Description / Tariff Heading": "Pharmaceutical Products"
+    "keyword": "medicine",
+    "hsn": "3004",
+    "rate": "12%",
+    "tariff": "Pharmaceutical Products"
   }
 ]
