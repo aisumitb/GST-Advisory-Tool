@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>GST Transaction Advisory Tool</title>
+<style>
+  body {font-family: 'Segoe UI', Tahoma, sans-serif; background:#f4f6f8; padding:30px;}
+  .container {max-width:800px; margin:auto; background:#fff; padding:25px 35px; border-radius:12px; box-shadow:0 2px 10px rgba(0,0,0,0.1);}
+  h2 {text-align:center; color:#2a4d69; margin-bottom:25px;}
+  label {display:block; margin-top:15px; font-weight:600;}
+  input, select, textarea {width:100%; padding:8px; border:1px solid #ccc; border-radius:6px; margin-top:5px; font-size:14px;}
+  button {background:#2a4d69; color:#fff; border:none; padding:10px 18px; border-radius:6px; margin-top:20px; cursor:pointer;}
+  button:hover {background:#1b3652;}
+  .output {background:#f9fafb; padding:15px; border-radius:8px; margin-top:25px;}
+  .row {display:flex; gap:10px;}
+  .row > div {flex:1;}
+</style>
+</head>
+<body>
+<div class="container">
+  <h2>GST Transaction Advisory Tool</h2>
+  <label>Description of Goods/Services</label>
+  <input type="text" id="desc" placeholder="e.g. mobile phones, consulting services">
+
+  <div class="row">
+    <div>
+      <label>Origin State</label>
+      <select id="origin">
+        <option value="">Select Origin</option>
+        <option>Andhra Pradesh</option><option>Delhi</option><option>Karnataka</option>
+        <option>Maharashtra</option><option>Tamil Nadu</option><option>Uttar Pradesh</option><option>West Bengal</option>
+      </select>
+    </div>
+    <div>
+      <label>Destination State</label>
+      <select id="dest">
+        <option value="">Select Destination</option>
+        <option>Andhra Pradesh</option><option>Delhi</option><option>Karnataka</option>
+        <option>Maharashtra</option><option>Tamil Nadu</option><option>Uttar Pradesh</option><option>West Bengal</option>
+      </select>
+    </div>
+  </div>
+
+  <button id="calculateBtn">Get Advisory</button>
+  <div class="output" id="outputBox" style="display:none;">
+    <h3>Result</h3>
+    <label>Billing Type:</label><input id="billing" readonly>
+    <label>HSN/SAC Code:</label><input id="hsn" readonly>
+    <label>GST Rate:</label><input id="rate" readonly>
+    <label>Tariff / Classification:</label><textarea id="tariff" rows="2" readonly></textarea>
+  </div>
+</div>
+
+<script>
+let hsnMaster = [];
+
+// Load large data asynchronously
+async function loadHSNData() {
+  try {
+    const res = await fetch('hsn_master.json');
+    hsnMaster = await res.json();
+    console.log(`Loaded ${hsnMaster.length} HSN records`);
+  } catch (err) {
+    alert("Error loading HSN data. Please check hsn_master.json");
+  }
+}
+
+// Optimized search for large data
+function findHSN(description) {
+  const desc = description.toLowerCase();
+  for (let i = 0; i < hsnMaster.length; i++) {
+    if (desc.includes(hsnMaster[i].keyword.toLowerCase())) {
+      return hsnMaster[i];
+    }
+  }
+  return null;
+}
+
+function calculateGST() {
+  const desc = document.getElementById("desc").value.trim();
+  const origin = document.getElementById("origin").value;
+  const dest = document.getElementById("dest").value;
+
+  if (!desc || !origin || !dest) {
+    alert("Please fill in all required details.");
+    return;
+  }
+
+  const billing = origin === dest ? "Intrastate (CGST + SGST)" : "Interstate (IGST)";
+  const match = findHSN(desc);
+
+  document.getElementById("billing").value = billing;
+  document.getElementById("hsn").value = match ? match.hsn : "N/A";
+  document.getElementById("rate").value = match ? match.rate : "Check Notification";
+  document.getElementById("tariff").value = match ? match.tariff : "Unclassified Goods/Services";
+
+  document.getElementById("outputBox").style.display = "block";
+}
+
+document.getElementById("calculateBtn").addEventListener("click", calculateGST);
+window.onload = loadHSNData;
+</script>
+</body>
+</html>

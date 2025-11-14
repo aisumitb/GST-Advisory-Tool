@@ -1,0 +1,44 @@
+[
+  {
+    "Keyword": "mobile",
+    "HSN/SAC": 8517,
+    "GST Rate": "18%",
+    "Description / Tariff Heading": "Telecommunication Equipment"
+  },
+  {
+    "Keyword": "computer",
+    "HSN/SAC": 8471,
+    "GST Rate": "18%",
+    "Description / Tariff Heading": "Automatic Data Processing Machines"
+  },
+  {
+    "Keyword": "food",
+    "HSN/SAC": 9963,
+    "GST Rate": "5%",
+    "Description / Tariff Heading": "Restaurant and Food Services"
+  },
+  {
+    "Keyword": "construction",
+    "HSN/SAC": 9954,
+    "GST Rate": "18%",
+    "Description / Tariff Heading": "Construction Services"
+  },
+  {
+    "Keyword": "consulting",
+    "HSN/SAC": 9983,
+    "GST Rate": "18%",
+    "Description / Tariff Heading": "Professional and Advisory Services"
+  },
+  {
+    "Keyword": "textile",
+    "HSN/SAC": 5208,
+    "GST Rate": "5%",
+    "Description / Tariff Heading": "Cotton Fabrics"
+  },
+  {
+    "Keyword": "medicine",
+    "HSN/SAC": 3004,
+    "GST Rate": "12%",
+    "Description / Tariff Heading": "Pharmaceutical Products"
+  }
+]
