@@ -1,1 +1,1 @@
-![Cover Image](cover.png)
+
