@@ -71,44 +71,124 @@
     "rate": "5%",
     "tariff": "Coconuts, Brazil Nuts & Cashew Nuts"
   },
-  { "keyword": "almond", "hsn": "0802", "rate": "5%", "tariff": "Other Nuts" },
-{ "keyword": "walnut", "hsn": "0802", "rate": "5%", "tariff": "Other Nuts" },
-{ "keyword": "hazelnut", "hsn": "0802", "rate": "5%", "tariff": "Other Nuts" },
-{ "keyword": "pistachio", "hsn": "0802", "rate": "5%", "tariff": "Other Nuts" },
-{ "keyword": "macadamia", "hsn": "0802", "rate": "5%", "tariff": "Other Nuts" },
-  { "keyword": "banana", "hsn": "0803", "rate": "0%", "tariff": "Bananas, fresh or dried" },
-{ "keyword": "greenbanana", "hsn": "0803", "rate": "0%", "tariff": "Bananas, fresh or dried" },
-  { "keyword": "datefruit", "hsn": "0804", "rate": "5%", "tariff": "Dates, fresh or dried" },
-{ "keyword": "fig", "hsn": "0804", "rate": "5%", "tariff": "Figs, fresh or dried" },
-{ "keyword": "pineapple", "hsn": "0804", "rate": "5%", "tariff": "Pineapples, fresh or dried" },
-{ "keyword": "avocado", "hsn": "0804", "rate": "5%", "tariff": "Avocados" },
-{ "keyword": "mango", "hsn": "0804", "rate": "5%", "tariff": "Mangoes" },
-  { "keyword": "orange", "hsn": "0805", "rate": "0%", "tariff": "Citrus fruit" },
-{ "keyword": "mandarin", "hsn": "0805", "rate": "0%", "tariff": "Citrus fruit" },
-{ "keyword": "lemon", "hsn": "0805", "rate": "0%", "tariff": "Citrus fruit" },
-{ "keyword": "lime", "hsn": "0805", "rate": "0%", "tariff": "Citrus fruit" },
-  { "keyword": "grape", "hsn": "0806", "rate": "0%", "tariff": "Grapes, fresh or dried" },
-{ "keyword": "raisins", "hsn": "0806", "rate": "5%", "tariff": "Dried grapes / Raisins" },
-  { "keyword": "melon", "hsn": "0807", "rate": "0%", "tariff": "Melons" },
-{ "keyword": "watermelon", "hsn": "0807", "rate": "0%", "tariff": "Watermelons" },
-{ "keyword": "papaya", "hsn": "0807", "rate": "0%", "tariff": "Papayas" },
-  { "keyword": "apple", "hsn": "0808", "rate": "0%", "tariff": "Apples" },
-{ "keyword": "pear", "hsn": "0808", "rate": "0%", "tariff": "Pears" },
-{ "keyword": "quince", "hsn": "0808", "rate": "0%", "tariff": "Quinces" },
-  { "keyword": "cherry", "hsn": "0809", "rate": "0%", "tariff": "Cherries" },
-{ "keyword": "peach", "hsn": "0809", "rate": "0%", "tariff": "Peaches" },
-{ "keyword": "plum", "hsn": "0809", "rate": "0%", "tariff": "Plums" },
-{ "keyword": "apricot", "hsn": "0809", "rate": "0%", "tariff": "Apricots" },
-  { "keyword": "strawberry", "hsn": "0810", "rate": "0%", "tariff": "Strawberries" },
-{ "keyword": "raspberry", "hsn": "0810", "rate": "0%", "tariff": "Raspberries" },
-{ "keyword": "blueberry", "hsn": "0810", "rate": "0%", "tariff": "Blueberries" },
-{ "keyword": "kiwi", "hsn": "0810", "rate": "0%", "tariff": "Kiwifruit" },
-  { "keyword": "frozenfruit", "hsn": "0811", "rate": "5%", "tariff": "Fruit frozen" },
-{ "keyword": "frozenberries", "hsn": "0811", "rate": "5%", "tariff": "Berries frozen" },
-  { "keyword": "driedfruit", "hsn": "0812", "rate": "5%", "tariff": "Fruit dried" },
-{ "keyword": "dehydratedfruit", "hsn": "0812", "rate": "5%", "tariff": "Fruit dehydrated" },
-  { "keyword": "mixeddryfruits", "hsn": "0813", "rate": "5%", "tariff": "Mixtures of dried fruits" },
-{ "keyword": "trailmix", "hsn": "0813", "rate": "5%", "tariff": "Dried fruit mixtures" }
-  { "keyword": "citruspeel", "hsn": "0814", "rate": "5%", "tariff": "Peel of citrus fruits" },
-{ "keyword": "melonpeel", "hsn": "0814", "rate": "5%", "tariff": "Peel of melons" }
+  { 
+    "keyword": "almond", "hsn": "0802", "rate": "5%", "tariff": "Other Nuts" 
+  },
+{ 
+  "keyword": "walnut", "hsn": "0802", "rate": "5%", "tariff": "Other Nuts" 
+},
+{ 
+  "keyword": "hazelnut", "hsn": "0802", "rate": "5%", "tariff": "Other Nuts" 
+},
+{
+  "keyword": "pistachio", "hsn": "0802", "rate": "5%", "tariff": "Other Nuts" 
+},
+{ 
+  "keyword": "macadamia", "hsn": "0802", "rate": "5%", "tariff": "Other Nuts" 
+},
+  { 
+    "keyword": "banana", "hsn": "0803", "rate": "0%", "tariff": "Bananas, fresh or dried" 
+  },
+{ 
+  "keyword": "greenbanana", "hsn": "0803", "rate": "0%", "tariff": "Bananas, fresh or dried"
+},
+  { 
+    "keyword": "datefruit", "hsn": "0804", "rate": "5%", "tariff": "Dates, fresh or dried"
+  },
+{ 
+  "keyword": "fig", "hsn": "0804", "rate": "5%", "tariff": "Figs, fresh or dried"
+},
+{
+  "keyword": "pineapple", "hsn": "0804", "rate": "5%", "tariff": "Pineapples, fresh or dried" 
+},
+{
+  "keyword": "avocado", "hsn": "0804", "rate": "5%", "tariff": "Avocados"
+},
+{ 
+  "keyword": "mango", "hsn": "0804", "rate": "5%", "tariff": "Mangoes"
+},
+  {
+    "keyword": "orange", "hsn": "0805", "rate": "0%", "tariff": "Citrus fruit" 
+  },
+{ 
+  "keyword": "mandarin", "hsn": "0805", "rate": "0%", "tariff": "Citrus fruit" 
+},
+{
+  "keyword": "lemon", "hsn": "0805", "rate": "0%", "tariff": "Citrus fruit"
+},
+{
+  "keyword": "lime", "hsn": "0805", "rate": "0%", "tariff": "Citrus fruit"
+},
+  {
+    "keyword": "grape", "hsn": "0806", "rate": "0%", "tariff": "Grapes, fresh or dried"
+  },
+{
+  "keyword": "raisins", "hsn": "0806", "rate": "5%", "tariff": "Dried grapes / Raisins"
+},
+  { 
+    "keyword": "melon", "hsn": "0807", "rate": "0%", "tariff": "Melons"
+  },
+{
+  "keyword": "watermelon", "hsn": "0807", "rate": "0%", "tariff": "Watermelons"
+},
+{ 
+  "keyword": "papaya", "hsn": "0807", "rate": "0%", "tariff": "Papayas" 
+},
+  { 
+    "keyword": "apple", "hsn": "0808", "rate": "0%", "tariff": "Apples"
+  },
+{ 
+  "keyword": "pear", "hsn": "0808", "rate": "0%", "tariff": "Pears" 
+},
+{ 
+  "keyword": "quince", "hsn": "0808", "rate": "0%", "tariff": "Quinces"
+},
+  { 
+    "keyword": "cherry", "hsn": "0809", "rate": "0%", "tariff": "Cherries" 
+  },
+{
+  "keyword": "peach", "hsn": "0809", "rate": "0%", "tariff": "Peaches"
+},
+{
+  "keyword": "plum", "hsn": "0809", "rate": "0%", "tariff": "Plums" 
+},
+{
+  "keyword": "apricot", "hsn": "0809", "rate": "0%", "tariff": "Apricots" 
+},
+  {
+    "keyword": "strawberry", "hsn": "0810", "rate": "0%", "tariff": "Strawberries" 
+  },
+{
+  "keyword": "raspberry", "hsn": "0810", "rate": "0%", "tariff": "Raspberries" 
+},
+{
+  "keyword": "blueberry", "hsn": "0810", "rate": "0%", "tariff": "Blueberries"
+},
+{
+  "keyword": "kiwi", "hsn": "0810", "rate": "0%", "tariff": "Kiwifruit" 
+},
+  { 
+    "keyword": "frozenfruit", "hsn": "0811", "rate": "5%", "tariff": "Fruit frozen" 
+  },
+{
+  "keyword": "frozenberries", "hsn": "0811", "rate": "5%", "tariff": "Berries frozen"
+},
+  {
+    "keyword": "driedfruit", "hsn": "0812", "rate": "5%", "tariff": "Fruit dried"
+  },
+{
+  "keyword": "dehydratedfruit", "hsn": "0812", "rate": "5%", "tariff": "Fruit dehydrated" 
+},
+  {
+    "keyword": "mixeddryfruits", "hsn": "0813", "rate": "5%", "tariff": "Mixtures of dried fruits"
+  },
+{
+  "keyword": "trailmix", "hsn": "0813", "rate": "5%", "tariff": "Dried fruit mixtures"
+}
+  { 
+    "keyword": "citruspeel", "hsn": "0814", "rate": "5%", "tariff": "Peel of citrus fruits" 
+  },
+{
+  "keyword": "melonpeel", "hsn": "0814", "rate": "5%", "tariff": "Peel of melons" 
+}
 ]
