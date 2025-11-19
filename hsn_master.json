@@ -40,5 +40,37 @@
     "hsn": "3004",
     "rate": "12%",
     "tariff": "Pharmaceutical Products"
+  },
+  {
+    "keyword": "coconut",
+    "hsn": "0801",
+    "rate": "5%",
+    "tariff": "Coconuts, Brazil Nuts & Cashew Nuts"
+  },
+  {
+    "keyword": "fresh coconut",
+    "hsn": "0801",
+    "rate": "5%",
+    "tariff": "Coconuts, Brazil Nuts & Cashew Nuts"
+  },
+  {
+    "keyword": "dried coconut",
+    "hsn": "0801",
+    "rate": "5%",
+    "tariff": "Coconuts, Brazil Nuts & Cashew Nuts"
+  },
+  {
+    "keyword": "copra",
+    "hsn": "0801",
+    "rate": "5%",
+    "tariff": "Coconuts, Brazil Nuts & Cashew Nuts"
+  },
+  {
+    "keyword": "desiccated coconut",
+    "hsn": "0801",
+    "rate": "5%",
+    "tariff": "Coconuts, Brazil Nuts & Cashew Nuts"
   }
+  
 ]
+
