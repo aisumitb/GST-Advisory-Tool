@@ -1,33 +1,44 @@
 [
   {
-    "keyword": "coconut",
-    "hsn": "0801",
-    "rate": "5%",
-    "tariff": "Coconuts, Brazil Nuts & Cashew Nuts"
+    "keyword": "mobile",
+    "hsn": "8517",
+    "rate": "18%",
+    "tariff": "Telecommunication Equipment"
   },
   {
-    "keyword": "freshcoconut",
-    "hsn": "0801",
-    "rate": "5%",
-    "tariff": "Coconuts, Brazil Nuts & Cashew Nuts"
+    "keyword": "computer",
+    "hsn": "8471",
+    "rate": "18%",
+    "tariff": "Automatic Data Processing Machines"
   },
   {
-    "keyword": "driedcoconut",
-    "hsn": "0801",
+    "keyword": "food",
+    "hsn": "9963",
     "rate": "5%",
-    "tariff": "Coconuts, Brazil Nuts & Cashew Nuts"
+    "tariff": "Restaurant and Food Services"
   },
   {
-    "keyword": "copra",
-    "hsn": "0801",
-    "rate": "5%",
-    "tariff": "Coconuts, Brazil Nuts & Cashew Nuts"
+    "keyword": "construction",
+    "hsn": "9954",
+    "rate": "18%",
+    "tariff": "Construction Services"
   },
   {
-    "keyword": "desiccatedcoconut",
-    "hsn": "0801",
+    "keyword": "consulting",
+    "hsn": "9983",
+    "rate": "18%",
+    "tariff": "Professional and Advisory Services"
+  },
+  {
+    "keyword": "textile",
+    "hsn": "5208",
     "rate": "5%",
-    "tariff": "Coconuts, Brazil Nuts & Cashew Nuts"
+    "tariff": "Cotton Fabrics"
+  },
+  {
+    "keyword": "medicine",
+    "hsn": "3004",
+    "rate": "12%",
+    "tariff": "Pharmaceutical Products"
   }
 ]
-
