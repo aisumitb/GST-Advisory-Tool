@@ -55,6 +55,7 @@
   </div>
 
   <button id="calculateBtn">Get Advisory</button>
+  <button id="clearBtn" style="background:#888;">Clear</button>
   <div class="output" id="outputBox" style="display:none;">
     <h3>Result</h3>
     <label>Billing Type:</label><input id="billing" readonly>
@@ -112,19 +113,21 @@ function calculateGST() {
 
 document.getElementById("calculateBtn").addEventListener("click", calculateGST);
 window.onload = loadHSNData;
+document.getElementById("clearBtn").addEventListener("click", function () {
+    // Clear result fields
+    document.getElementById("billing").value = "";
+    document.getElementById("hsn").value = "";
+    document.getElementById("rate").value = "";
+    document.getElementById("tariff").value = "";
 
+    // Hide output box
+    document.getElementById("outputBox").style.display = "none";
+
+    // Optional: Clear inputs too
+    // document.getElementById("desc").value = "";
+    // document.getElementById("origin").value = "";
+    // document.getElementById("dest").value = "";
+});
 
 
 </script>
-  
-
-
-
-
-
-
-
-
-
-
-
