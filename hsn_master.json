@@ -6,13 +6,13 @@
     "tariff": "Coconuts, Brazil Nuts & Cashew Nuts"
   },
   {
-    "keyword": "fresh coconut",
+    "keyword": "freshcoconut",
     "hsn": "0801",
     "rate": "5%",
     "tariff": "Coconuts, Brazil Nuts & Cashew Nuts"
   },
   {
-    "keyword": "dried coconut",
+    "keyword": "driedcoconut",
     "hsn": "0801",
     "rate": "5%",
     "tariff": "Coconuts, Brazil Nuts & Cashew Nuts"
@@ -24,9 +24,10 @@
     "tariff": "Coconuts, Brazil Nuts & Cashew Nuts"
   },
   {
-    "keyword": "desiccated coconut",
+    "keyword": "desiccatedcoconut",
     "hsn": "0801",
     "rate": "5%",
     "tariff": "Coconuts, Brazil Nuts & Cashew Nuts"
   }
 ]
+
