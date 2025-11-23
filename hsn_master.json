@@ -137,7 +137,7 @@
 {"keyword": "saffron", "hsn": "0910", "rate": "5%", "tariff": "Saffron"},
 {"keyword": "turmeric", "hsn": "0910", "rate": "5%", "tariff": "Turmeric"},
 {"keyword": "haldi", "hsn": "0910", "rate": "5%", "tariff": "Turmeric (Haldi)"}
-[
+
   {"keyword": "garammasala", "hsn": "0910", "rate": "5%", "tariff": "Other spices (Mixtures of spices)" },
   {"keyword": "meatmasala", "hsn": "0910", "rate": "5%", "tariff": "Other spices (Mixtures of spices)" },
   {"keyword": "chickenmasala", "hsn": "0910", "rate": "5%", "tariff": "Other spices (Mixtures of spices)" },
@@ -178,5 +178,6 @@
 
   { "keyword": "curryleafpowder", "hsn": "0910", "rate": "5%", "tariff": "Dried curry leaves in powder form" }
 ]
+
 
 
