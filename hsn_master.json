@@ -136,8 +136,7 @@
 {"keyword": "ginger", "hsn": "0910", "rate": "5%", "tariff": "Ginger"},
 {"keyword": "saffron", "hsn": "0910", "rate": "5%", "tariff": "Saffron"},
 {"keyword": "turmeric", "hsn": "0910", "rate": "5%", "tariff": "Turmeric"},
-{"keyword": "haldi", "hsn": "0910", "rate": "5%", "tariff": "Turmeric (Haldi)"}
-
+{"keyword": "haldi", "hsn": "0910", "rate": "5%", "tariff": "Turmeric (Haldi)"},
   {"keyword": "garammasala", "hsn": "0910", "rate": "5%", "tariff": "Other spices (Mixtures of spices)"},
   {"keyword": "meatmasala", "hsn": "0910", "rate": "5%", "tariff": "Other spices (Mixtures of spices)"},
   {"keyword": "chickenmasala", "hsn": "0910", "rate": "5%", "tariff": "Other spices (Mixtures of spices)"},
@@ -152,7 +151,6 @@
   {"keyword": "currymasala", "hsn": "0910", "rate": "5%", "tariff": "Other spices (Mixtures of spices)"},
   {"keyword": "teamasala", "hsn": "0910", "rate": "5%", "tariff": "Other spices (Mixtures of spices)"},
   {"keyword": "tandoorimasala", "hsn": "0910", "rate": "5%", "tariff": "Other spices (Mixtures of spices)"},
-
   {"keyword": "oregano", "hsn": "0910", "rate": "5%", "tariff": "Dried herbs used as spices"},
   {"keyword": "basil", "hsn": "0910", "rate": "5%", "tariff": "Dried herbs used as spices"},
   {"keyword": "thyme", "hsn": "0910", "rate": "5%", "tariff": "Dried herbs used as spices"},
@@ -160,10 +158,8 @@
   {"keyword": "italianseasoning", "hsn": "0910", "rate": "5%", "tariff": "Mixed herb seasoning"},
   {"keyword": "pizzaseasoning", "hsn": "0910", "rate": "5%", "tariff": "Spice and herb seasoning"},
   {"keyword": "pastaseasoning", "hsn": "0910", "rate": "5%", "tariff": "Spice and herb seasoning"},
-
   {"keyword": "spicemix", "hsn": "0910", "rate": "5%", "tariff": "Mixed spices not elsewhere classified"},
   {"keyword": "mixedspices", "hsn": "0910", "rate": "5%", "tariff": "Mixed spices not elsewhere classified"},
-
   {"keyword": "nutmegpowder", "hsn": "0910", "rate": "5%", "tariff": "Spice powders"},
   {"keyword": "macepowder", "hsn": "0910", "rate": "5%", "tariff": "Spice powders"},
   {"keyword": "cuminpowder", "hsn": "0910", "rate": "5%", "tariff": "Spice powders"},
@@ -172,13 +168,7 @@
   {"keyword": "fenugreekpowder", "hsn": "0910", "rate": "5%", "tariff": "Spice powders"},
   {"keyword": "anisepowder", "hsn": "0910", "rate": "5%", "tariff": "Spice powders" },
   {"keyword": "celeryseedpowder", "hsn": "0910", "rate": "5%", "tariff": "Spice powders"},
-
   {"keyword": "oleoresinpowder", "hsn": "0910", "rate": "5%", "tariff": "Spice extracts (solid form)"},
   {"keyword": "spiceextractpowder", "hsn": "0910", "rate": "5%", "tariff": "Spice extracts (solid form)"},
-
   {"keyword": "curryleafpowder", "hsn": "0910", "rate": "5%", "tariff": "Dried curry leaves in powder form"}
 ]
-
-
-
-
