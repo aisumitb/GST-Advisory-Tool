@@ -277,4 +277,131 @@
   {"keyword": "headlight", "hsn": "8708", "rate": "18%", "tariff": "Parts & accessories of motor vehicles"},
   {"keyword": "bumper", "hsn": "8708", "rate": "5%", "tariff": "Parts & accessories of motor vehicles"},
   {"keyword": "tyre", "hsn": "4011", "rate": "18%", "tariff": "Rubber tyres"}
+  
+  {
+    "keyword": "silk",
+    "hsn": "5001",
+    "rate": "5%",
+    "tariff": "Silk worm cocoons suitable for reeling"
+  },
+  {
+    "keyword": "silkworm cocoons",
+    "hsn": "5001",
+    "rate": "5%",
+    "tariff": "Silk worm cocoons suitable for reeling"
+  },
+  {
+    "keyword": "mulberry cocoons",
+    "hsn": "5001",
+    "rate": "5%",
+    "tariff": "Silk worm cocoons (mulberry)"
+  },
+  {
+    "keyword": "raw silk",
+    "hsn": "5002",
+    "rate": "5%",
+    "tariff": "Raw silk (not thrown)"
+  },
+  {
+    "keyword": "reeled silk",
+    "hsn": "5002",
+    "rate": "5%",
+    "tariff": "Silk reeled from cocoons"
+  },
+  {
+    "keyword": "raw mulberry silk",
+    "hsn": "5002",
+    "rate": "5%",
+    "tariff": "Mulberry raw silk"
+  },
+  {
+    "keyword": "raw tussar silk",
+    "hsn": "5002",
+    "rate": "5%",
+    "tariff": "Tussar raw silk"
+  },
+  {
+    "keyword": "raw eri silk",
+    "hsn": "5002",
+    "rate": "5%",
+    "tariff": "Eri raw silk"
+  },
+  {
+    "keyword": "raw muga silk",
+    "hsn": "5002",
+    "rate": "5%",
+    "tariff": "Muga raw silk"
+  },
+  {
+    "keyword": "silk yarn",
+    "hsn": "5004",
+    "rate": "5%",
+    "tariff": "Silk yarn (not spun)"
+  },
+  {
+    "keyword": "spun silk yarn",
+    "hsn": "5005",
+    "rate": "5%",
+    "tariff": "Yarn spun from silk waste"
+  },
+  {
+    "keyword": "mulberry silk yarn",
+    "hsn": "5004",
+    "rate": "5%",
+    "tariff": "Silk yarn (mulberry)"
+  },
+  {
+    "keyword": "tussar silk yarn",
+    "hsn": "5005",
+    "rate": "5%",
+    "tariff": "Tussar spun silk yarn"
+  },
+  {
+    "keyword": "eri silk yarn",
+    "hsn": "5005",
+    "rate": "5%",
+    "tariff": "Spun silk yarn (eri)"
+  },
+  {
+    "keyword": "muga silk yarn",
+    "hsn": "5005",
+    "rate": "5%",
+    "tariff": "Spun silk yarn (muga)"
+  },
+  {
+    "keyword": "silk waste",
+    "hsn": "5003",
+    "rate": "5%",
+    "tariff": "Silk waste (including cocoon waste, yarn waste)"
+  },
+  {
+    "keyword": "cocoon waste",
+    "hsn": "5003",
+    "rate": "5%",
+    "tariff": "Silk cocoon waste"
+  },
+  {
+    "keyword": "silk noils",
+    "hsn": "5003",
+    "rate": "5%",
+    "tariff": "Silk noils"
+  },
+  {
+    "keyword": "silk tops",
+    "hsn": "5004",
+    "rate": "5%",
+    "tariff": "Silk tops and slivers"
+  },
+  {
+    "keyword": "silk filament yarn",
+    "hsn": "5004",
+    "rate": "5%",
+    "tariff": "Silk yarn (filament)"
+  },
+  {
+    "keyword": "twisted silk yarn",
+    "hsn": "5004",
+    "rate": "5%",
+    "tariff": "Silk yarn, twisted"
+  }
 ]
