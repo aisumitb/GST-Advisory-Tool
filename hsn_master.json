@@ -308,28 +308,29 @@
   {"keyword": "georgette silk", "hsn": "5007", "rate": "5%", "tariff": "Georgette silk fabric"},
 
   {"keyword": "wool", "hsn": "5101", "rate": "0%", "tariff": "Greasy wool"},
-  {"keyword": "raw wool", "hsn": "5101", "rate": "0%", "tariff": "Wool, greasy or fleece-washed"},
-  {"keyword": "scoured wool", "hsn": "5101", "rate": "0%", "tariff": "Wool that is scoured"},
-  {"keyword": "fine animal hair", "hsn": "5102", "rate": "0%", "tariff": "Fine animal hair, not carded or combed"},
+  {"keyword": "rawwool", "hsn": "5101", "rate": "0%", "tariff": "Wool, greasy or fleece-washed"},
+  {"keyword": "scouredwool", "hsn": "5101", "rate": "0%", "tariff": "Wool that is scoured"},
+  {"keyword": "fineanimalhair", "hsn": "5102", "rate": "0%", "tariff": "Fine animal hair, not carded or combed"},
   {"keyword": "cashmere", "hsn": "5102", "rate": "0%", "tariff": "Cashmere hair"},
-  {"keyword": "camel hair", "hsn": "5102", "rate": "0%", "tariff": "Camel hair"},
-  {"keyword": "coarse animal hair", "hsn": "5103", "rate": "0%", "tariff": "Coarse animal hair, not carded or combed"},
-  {"keyword": "goat hair", "hsn": "5103", "rate": "0%", "tariff": "Goat coarse hair"},
-  {"keyword": "wool waste", "hsn": "5104", "rate": "0%", "tariff": "Wool and fine/coarse animal hair waste"},
-  {"keyword": "carded wool", "hsn": "5105", "rate": "5%", "tariff": "Wool and fine/coarse animal hair - carded or combed"},
+  {"keyword": "camelhair", "hsn": "5102", "rate": "0%", "tariff": "Camel hair"},
+  {"keyword": "coarseanimalhair", "hsn": "5103", "rate": "0%", "tariff": "Coarse animal hair, not carded or combed"},
+  {"keyword": "goathair", "hsn": "5103", "rate": "0%", "tariff": "Goat coarse hair"},
+  {"keyword": "woolwaste", "hsn": "5104", "rate": "0%", "tariff": "Wool and fine/coarse animal hair waste"},
+  {"keyword": "cardedwool", "hsn": "5105", "rate": "5%", "tariff": "Wool and fine/coarse animal hair - carded or combed"},
   {"keyword": "woolyarn", "hsn": "5106", "rate": "5%", "tariff": "Wool yarn, carded"},
-  {"keyword": "carded wool yarn", "hsn": "5106", "rate": "5%", "tariff": "Wool yarn, carded"},
-  {"keyword": "combed wool yarn", "hsn": "5107", "rate": "5%", "tariff": "Wool yarn, combed"},
+  {"keyword": "cardedwoolyarn", "hsn": "5106", "rate": "5%", "tariff": "Wool yarn, carded"},
+  {"keyword": "combedwoolyarn", "hsn": "5107", "rate": "5%", "tariff": "Wool yarn, combed"},
   {"keyword": "fineanimalhairyarn", "hsn": "5108", "rate": "5%", "tariff": "Yarn of fine animal hair"},
-  {"keyword": "coarse animal hair yarn", "hsn": "5109", "rate": "5%", "tariff": "Yarn of coarse animal hair"},
-  {"keyword": "wool fabric", "hsn": "5110", "rate": "5%", "tariff": "Woven fabric of wool (carded)"},
-  {"keyword": "carded wool fabric", "hsn": "5110", "rate": "5%", "tariff": "Wool carded fabric"},
-  {"keyword": "combed wool fabric", "hsn": "5111", "rate": "5%", "tariff": "Woven fabric of wool (combed)"},
-  {"keyword": "suit fabric", "hsn": "5111", "rate": "5%", "tariff": "Fine woven wool fabric for suits"},
-  {"keyword": "mixed wool fabric", "hsn": "5112", "rate": "5%", "tariff": "Woven fabrics containing wool & fine animal hair with synthetic fibres"},
-  {"keyword": "blended wool fabric", "hsn": "5112", "rate": "5%", "tariff": "Wool and synthetic fibre blends"},
-  {"keyword": "wool blend fabric", "hsn": "5113", "rate": "5%", "tariff": "Other woven wool fabrics with man-made fibres"}
+  {"keyword": "coarseanimalhairyarn", "hsn": "5109", "rate": "5%", "tariff": "Yarn of coarse animal hair"},
+  {"keyword": "woolfabric", "hsn": "5110", "rate": "5%", "tariff": "Woven fabric of wool (carded)"},
+  {"keyword": "cardedwoolfabric", "hsn": "5110", "rate": "5%", "tariff": "Wool carded fabric"},
+  {"keyword": "combedwoolfabric", "hsn": "5111", "rate": "5%", "tariff": "Woven fabric of wool (combed)"},
+  {"keyword": "suitfabric", "hsn": "5111", "rate": "5%", "tariff": "Fine woven wool fabric for suits"},
+  {"keyword": "mixedwoolfabric", "hsn": "5112", "rate": "5%", "tariff": "Woven fabrics containing wool & fine animal hair with synthetic fibres"},
+  {"keyword": "blendedwoolfabric", "hsn": "5112", "rate": "5%", "tariff": "Wool and synthetic fibre blends"},
+  {"keyword": "woolblendfabric", "hsn": "5113", "rate": "5%", "tariff": "Other woven wool fabrics with man-made fibres"}
 ]
+
 
 
 
