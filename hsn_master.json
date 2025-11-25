@@ -328,12 +328,37 @@
   {"keyword": "suitfabric", "hsn": "5111", "rate": "5%", "tariff": "Fine woven wool fabric for suits"},
   {"keyword": "mixedwoolfabric", "hsn": "5112", "rate": "5%", "tariff": "Woven fabrics containing wool & fine animal hair with synthetic fibres"},
   {"keyword": "blendedwoolfabric", "hsn": "5112", "rate": "5%", "tariff": "Wool and synthetic fibre blends"},
-  {"keyword": "woolblendfabric", "hsn": "5113", "rate": "5%", "tariff": "Other woven wool fabrics with man-made fibres"}
+  {"keyword": "woolblendfabric", "hsn": "5113", "rate": "5%", "tariff": "Other woven wool fabrics with man-made fibres"},
+
+  {"keyword": "raw cotton", "hsn": "5201", "rate": "5%", "tariff": "Cotton, not carded or combed"},
+  {"keyword": "kapas", "hsn": "5201", "rate": "5%", "tariff": "Unginned cotton"},
+  {"keyword": "unginned cotton", "hsn": "5201", "rate": "5%", "tariff": "Cotton, not carded or combed"},
+  {"keyword": "seed cotton", "hsn": "5201", "rate": "5%", "tariff": "Raw cotton with seeds"},
+  {"keyword": "cotton waste", "hsn": "5202", "rate": "5%", "tariff": "Cotton waste"},
+  {"keyword": "cotton yarn waste", "hsn": "5202", "rate": "5%", "tariff": "Cotton yarn waste"},
+  {"keyword": "cotton hard waste", "hsn": "5202", "rate": "5%", "tariff": "Hard cotton waste"},
+  {"keyword": "carded cotton", "hsn": "5203", "rate": "5%", "tariff": "Cotton, carded"},
+  {"keyword": "combed cotton", "hsn": "5203", "rate": "5%", "tariff": "Cotton, combed"},
+  {"keyword": "cotton sewing thread", "hsn": "5204", "rate": "5%", "tariff": "Cotton sewing thread"},
+  {"keyword": "cotton thread", "hsn": "5204", "rate": "5%", "tariff": "Cotton sewing thread"},
+  {"keyword": "cotton yarn", "hsn": "5205", "rate": "5%", "tariff": "Cotton yarn containing 85% or more cotton"},
+  {"keyword": "combed cotton yarn", "hsn": "5205", "rate": "5%", "tariff": "Combed cotton yarn"},
+  {"keyword": "carded cotton yarn", "hsn": "5205", "rate": "5%", "tariff": "Carded cotton yarn"},
+  {"keyword": "blended cotton yarn", "hsn": "5206", "rate": "5%", "tariff": "Cotton yarn less than 85% cotton"},
+  {"keyword": "poly cotton yarn", "hsn": "5206", "rate": "5%", "tariff": "Poly-cotton blend yarn"},
+  {"keyword": "cotton yarn retail", "hsn": "5207", "rate": "5%", "tariff": "Cotton yarn put up for retail sale"},
+  {"keyword": "cotton ball yarn", "hsn": "5207", "rate": "5%", "tariff": "Retail packed cotton yarn"},
+  {"keyword": "cotton fabric light", "hsn": "5208", "rate": "5%", "tariff": "Cotton fabrics 200 g/m² or less"},
+  {"keyword": "light cotton cloth", "hsn": "5208", "rate": "5%", "tariff": "Lightweight woven cotton fabrics"},
+  {"keyword": "cambric", "hsn": "5208", "rate": "5%", "tariff": "Bleached/dyed cotton fabric"},
+  {"keyword": "voile", "hsn": "5208", "rate": "5%", "tariff": "Fine cotton fabric"},
+  {"keyword": "cotton fabric heavy", "hsn": "5209", "rate": "5%", "tariff": "Cotton fabrics over 200 g/m²"},
+  {"keyword": "denim", "hsn": "5209", "rate": "5%", "tariff": "Cotton denim fabric"},
+  {"keyword": "canvas", "hsn": "5209", "rate": "5%", "tariff": "Heavy cotton canvas fabric"},
+  {"keyword": "poly cotton fabric light", "hsn": "5210", "rate": "5%", "tariff": "Fabric with cotton + man-made fibres"},
+  {"keyword": "pc fabric light", "hsn": "5210", "rate": "5%", "tariff": "Poly cotton lightweight"},
+  {"keyword": "poly cotton fabric heavy", "hsn": "5211", "rate": "5%", "tariff": "Poly cotton heavy fabric"},
+  {"keyword": "pc fabric heavy", "hsn": "5211", "rate": "5%", "tariff": "Poly cotton fabric, heavy weight"},
+  {"keyword": "cotton mixed fabric", "hsn": "5212", "rate": "5%", "tariff": "Other cotton fabrics"},
+  {"keyword": "mixed cotton cloth", "hsn": "5212", "rate": "5%", "tariff": "Cotton blend fabrics not elsewhere classified"}
 ]
-
-
-
-
-
-
-
