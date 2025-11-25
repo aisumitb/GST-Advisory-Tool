@@ -325,10 +325,11 @@
   {"keyword": "woolfabric", "hsn": "5110", "rate": "5%", "tariff": "Woven fabric of wool (carded)"},
   {"keyword": "cardedwoolfabric", "hsn": "5110", "rate": "5%", "tariff": "Wool carded fabric"},
   {"keyword": "combedwoolfabric", "hsn": "5111", "rate": "5%", "tariff": "Woven fabric of wool (combed)"},
-  {"keyword": "suitfabric", "hsn": "5111", "rate": "5%", "tariff": "Fine woven wool fabric for suits"},
+  {"keyword": "suit fabric", "hsn": "5111", "rate": "5%", "tariff": "Fine woven wool fabric for suits"},
   {"keyword": "mixedwoolfabric", "hsn": "5112", "rate": "5%", "tariff": "Woven fabrics containing wool & fine animal hair with synthetic fibres"},
   {"keyword": "blendedwoolfabric", "hsn": "5112", "rate": "5%", "tariff": "Wool and synthetic fibre blends"},
   {"keyword": "woolblendfabric", "hsn": "5113", "rate": "5%", "tariff": "Other woven wool fabrics with man-made fibres"}
 ]
+
 
 
