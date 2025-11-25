@@ -307,7 +307,7 @@
   {"keyword": "chiffon silk", "hsn": "5007", "rate": "5%", "tariff": "Chiffon silk fabric"},
   {"keyword": "georgette silk", "hsn": "5007", "rate": "5%", "tariff": "Georgette silk fabric"},
 
-  {"keyword": "wool", "hsn": "5101", "rate": "0%", "tariff": "Greasy wool, not carded or combed"},
+  {"keyword": "wool", "hsn": "5101", "rate": "0%", "tariff": "Greasy wool"},
   {"keyword": "raw wool", "hsn": "5101", "rate": "0%", "tariff": "Wool, greasy or fleece-washed"},
   {"keyword": "scoured wool", "hsn": "5101", "rate": "0%", "tariff": "Wool that is scoured"},
   {"keyword": "fine animal hair", "hsn": "5102", "rate": "0%", "tariff": "Fine animal hair, not carded or combed"},
@@ -330,3 +330,4 @@
   {"keyword": "blended wool fabric", "hsn": "5112", "rate": "5%", "tariff": "Wool and synthetic fibre blends"},
   {"keyword": "wool blend fabric", "hsn": "5113", "rate": "5%", "tariff": "Other woven wool fabrics with man-made fibres"}
 ]
+
