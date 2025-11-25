@@ -320,7 +320,7 @@
   {"keyword": "woolyarn", "hsn": "5106", "rate": "5%", "tariff": "Wool yarn, carded"},
   {"keyword": "carded wool yarn", "hsn": "5106", "rate": "5%", "tariff": "Wool yarn, carded"},
   {"keyword": "combed wool yarn", "hsn": "5107", "rate": "5%", "tariff": "Wool yarn, combed"},
-  {"keyword": "fine animal hair yarn", "hsn": "5108", "rate": "5%", "tariff": "Yarn of fine animal hair"},
+  {"keyword": "fineanimalhairyarn", "hsn": "5108", "rate": "5%", "tariff": "Yarn of fine animal hair"},
   {"keyword": "coarse animal hair yarn", "hsn": "5109", "rate": "5%", "tariff": "Yarn of coarse animal hair"},
   {"keyword": "wool fabric", "hsn": "5110", "rate": "5%", "tariff": "Woven fabric of wool (carded)"},
   {"keyword": "carded wool fabric", "hsn": "5110", "rate": "5%", "tariff": "Wool carded fabric"},
@@ -330,6 +330,7 @@
   {"keyword": "blended wool fabric", "hsn": "5112", "rate": "5%", "tariff": "Wool and synthetic fibre blends"},
   {"keyword": "wool blend fabric", "hsn": "5113", "rate": "5%", "tariff": "Other woven wool fabrics with man-made fibres"}
 ]
+
 
 
 
