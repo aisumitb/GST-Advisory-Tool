@@ -543,7 +543,7 @@
   {"keyword": "hair extension", "hsn": "6704", "rate": "18%", "tariff": "Hair extensions"},
   {"keyword": "hair piece", "hsn": "6704", "rate": "18%", "tariff": "False beards, eyebrows, eyelashes"},
   {"keyword": "false eyelashes", "hsn": "6704", "rate": "18%", "tariff": "Artificial eyelashes"},
-  {"keyword": "false beard", "hsn": "6704", "rate": "18%", "tariff": "Beards and similar articles made of hair"}
+  {"keyword": "false beard", "hsn": "6704", "rate": "18%", "tariff": "Beards and similar articles made of hair"},
 
   {"keyword": "granite slab", "hsn": "6802", "rate": "18%", "tariff": "Worked monumental or building stone"},
   {"keyword": "granite tiles", "hsn": "6802", "rate": "18%", "tariff": "Worked monumental or building stone"},
@@ -578,3 +578,4 @@
   {"keyword": "quartz stone slab", "hsn": "6815", "rate": "18%", "tariff": "Artificial stone products"}
   
 ]
+
