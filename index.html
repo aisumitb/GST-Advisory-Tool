@@ -86,8 +86,14 @@ async function loadHSNData() {
 // Optimized search for large data
 function findHSN(description) {
   const desc = description.toLowerCase();
+
   for (let i = 0; i < hsnMaster.length; i++) {
-    if (desc.includes(hsnMaster[i].keyword.toLowerCase())) {
+    const keyword = hsnMaster[i].keyword.toLowerCase();
+
+    // Create whole-word boundary regex
+    const regex = new RegExp("\\b" + keyword + "\\b");
+
+    if (regex.test(desc)) {
       return hsnMaster[i];
     }
   }
@@ -135,6 +141,7 @@ document.getElementById("clearBtn").addEventListener("click", function () {
 
 
 </script>
+
 
 
 
