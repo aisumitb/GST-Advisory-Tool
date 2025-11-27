@@ -616,5 +616,5 @@
   {"keyword": "precious stone", "hsn": "7103", "rate": "0.25%", "tariff": "Precious stones"},
   {"keyword": "gold bar", "hsn": "7108", "rate": "3%", "tariff": "Gold including gold plated"},
   {"keyword": "silver bar", "hsn": "7106", "rate": "3%", "tariff": "Silver unwrought"},
-  {"keyword": "imitation jewellery", "hsn": "7117", "rate": "12%", "tariff": "Imitation jewellery"}
+  {"keyword": "bangles", "hsn": "7117", "rate": "0%", "tariff": "Imitation jewellery"}
 ]
