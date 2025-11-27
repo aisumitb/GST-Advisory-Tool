@@ -616,5 +616,101 @@
   {"keyword": "precious stone", "hsn": "7103", "rate": "0.25%", "tariff": "Precious stones"},
   {"keyword": "gold bar", "hsn": "7108", "rate": "3%", "tariff": "Gold including gold plated"},
   {"keyword": "silver bar", "hsn": "7106", "rate": "3%", "tariff": "Silver unwrought"},
-  {"keyword": "bangles", "hsn": "7117", "rate": "0%", "tariff": "Imitation jewellery"}
+  {"keyword": "bangles", "hsn": "7117", "rate": "0%", "tariff": "Imitation jewellery"},
+
+  {"keyword": "steel scrap", "hsn": "7204", "rate": "18%", "tariff": "Ferrous waste and scrap"},
+  {"keyword": "steel ingot", "hsn": "7206", "rate": "18%", "tariff": "Ingots of iron or steel"},
+  {"keyword": "steel rod", "hsn": "7214", "rate": "18%", "tariff": "Bars and rods of iron or steel"},
+  {"keyword": "steel wire", "hsn": "7217", "rate": "18%", "tariff": "Wire of iron or steel"},
+  {"keyword": "steel sheet", "hsn": "7208", "rate": "18%", "tariff": "Hot-rolled steel sheets"},
+  {"keyword": "steel coil", "hsn": "7209", "rate": "18%", "tariff": "Cold-rolled steel sheets"},
+
+  {"keyword": "steel pipe fittings", "hsn": "7307", "rate": "18%", "tariff": "Pipe fittings of iron or steel"},
+  {"keyword": "steel structure", "hsn": "7308", "rate": "18%", "tariff": "Structures and parts of structures"},
+  {"keyword": "steel tank", "hsn": "7310", "rate": "18%", "tariff": "Tanks, drums, cans of iron or steel"},
+  {"keyword": "steel cable", "hsn": "7312", "rate": "18%", "tariff": "Stranded wire, ropes, cables"},
+  {"keyword": "steel chain", "hsn": "7315", "rate": "18%", "tariff": "Iron or steel chains"},
+  {"keyword": "steel nail", "hsn": "7317", "rate": "18%", "tariff": "Nails, tacks, screws, bolts"},
+
+  {"keyword": "copper rod", "hsn": "7408", "rate": "18%", "tariff": "Copper rods"},
+  {"keyword": "copper wire", "hsn": "7408", "rate": "18%", "tariff": "Copper wire"},
+  {"keyword": "copper pipe", "hsn": "7411", "rate": "18%", "tariff": "Copper tubes and pipes"},
+  {"keyword": "copper fitting", "hsn": "7412", "rate": "18%", "tariff": "Copper tube fittings"},
+  {"keyword": "copper scrap", "hsn": "7404", "rate": "18%", "tariff": "Copper waste and scrap"},
+  
+  {"keyword": "nickel plate", "hsn": "7506", "rate": "18%", "tariff": "Plates, sheets of nickel"},
+  {"keyword": "nickel tube", "hsn": "7507", "rate": "18%", "tariff": "Nickel tubes and pipes"},
+  {"keyword": "nickel scrap", "hsn": "7503", "rate": "18%", "tariff": "Nickel waste and scrap"},
+
+  {"keyword": "aluminium rod", "hsn": "7604", "rate": "18%", "tariff": "Bars, rods of aluminium"},
+  {"keyword": "aluminium wire", "hsn": "7605", "rate": "18%", "tariff": "Aluminium wire"},
+  {"keyword": "aluminium plate", "hsn": "7606", "rate": "18%", "tariff": "Plates, sheets, strip of aluminium"},
+  {"keyword": "aluminium foil", "hsn": "7607", "rate": "18%", "tariff": "Aluminium foil"},
+  {"keyword": "aluminium pipe", "hsn": "7608", "rate": "18%", "tariff": "Aluminium tubes and pipes"},
+  {"keyword": "aluminium scrap", "hsn": "7602", "rate": "18%", "tariff": "Aluminium waste and scrap"},
+
+  {"keyword": "lead scrap", "hsn": "7802", "rate": "18%", "tariff": "Lead waste and scrap"},
+  {"keyword": "lead plate", "hsn": "7804", "rate": "18%", "tariff": "Lead plates, sheets"},
+  {"keyword": "lead pipe", "hsn": "7805", "rate": "18%", "tariff": "Lead pipes and tubes"},
+
+  {"keyword": "zinc scrap", "hsn": "7902", "rate": "18%", "tariff": "Zinc waste and scrap"},
+  {"keyword": "zinc plate", "hsn": "7905", "rate": "18%", "tariff": "Zinc plates, sheets"},
+  {"keyword": "zinc tube", "hsn": "7906", "rate": "18%", "tariff": "Zinc tubes and pipes"},
+
+  {"keyword": "tin scrap", "hsn": "8002", "rate": "18%", "tariff": "Tin waste and scrap"},
+  {"keyword": "tin plate", "hsn": "8005", "rate": "18%", "tariff": "Tin plates and sheets"},
+  {"keyword": "tin tube", "hsn": "8006", "rate": "18%", "tariff": "Tin tubes and pipes"},
+
+  {"keyword": "tungsten", "hsn": "8101", "rate": "18%", "tariff": "Tungsten and articles thereof"},
+  {"keyword": "molybdenum", "hsn": "8102", "rate": "18%", "tariff": "Molybdenum and articles thereof"},
+  {"keyword": "tantalum", "hsn": "8103", "rate": "18%", "tariff": "Tantalum and articles thereof"},
+  {"keyword": "magnesium", "hsn": "8104", "rate": "18%", "tariff": "Magnesium and articles thereof"},
+  {"keyword": "cobalt", "hsn": "8105", "rate": "18%", "tariff": "Cobalt and articles thereof"},
+  {"keyword": "titanium", "hsn": "8108", "rate": "18%", "tariff": "Titanium and articles thereof"},
+  {"keyword": "zirconium", "hsn": "8109", "rate": "18%", "tariff": "Zirconium and articles thereof"},
+
+  {"keyword": "hand tools", "hsn": "8201", "rate": "18%", "tariff": "Hand tools and parts"},
+  {"keyword": "spanners", "hsn": "8203", "rate": "18%", "tariff": "Wrenches and spanners"},
+  {"keyword": "pliers", "hsn": "8203", "rate": "18%", "tariff": "Pliers and similar tools"},
+  {"keyword": "screwdriver", "hsn": "8205", "rate": "18%", "tariff": "Screwdrivers and tool sets"},
+  {"keyword": "kitchen knives", "hsn": "8211", "rate": "18%", "tariff": "Knives and cutting blades"},
+  {"keyword": "razors", "hsn": "8212", "rate": "18%", "tariff": "Razors and blades"},
+
+  {"keyword": "padlock", "hsn": "8301", "rate": "18%", "tariff": "Locks and keys"},
+  {"keyword": "hinges", "hsn": "8302", "rate": "18%", "tariff": "Hinges and hardware fittings"},
+  {"keyword": "safes", "hsn": "8303", "rate": "18%", "tariff": "Strongboxes and safes"},
+  {"keyword": "photoframes", "hsn": "8306", "rate": "18%", "tariff": "Photograph and decorative frames"},
+
+  {"keyword": "engines", "hsn": "8407", "rate": "18%", "tariff": "Engines and motors"},
+  {"keyword": "pumps", "hsn": "8413", "rate": "18%", "tariff": "Pumps for liquids"},
+  {"keyword": "air conditioner", "hsn": "8415", "rate": "28%", "tariff": "Air conditioning machines"},
+  {"keyword": "refrigerator", "hsn": "8418", "rate": "18%", "tariff": "Refrigerators and freezers"},
+  {"keyword": "washing machine", "hsn": "8450", "rate": "18%", "tariff": "Household washing machines"},
+  {"keyword": "printing machine", "hsn": "8443", "rate": "18%", "tariff": "Printing machinery"},
+
+  {"keyword": "mobile", "hsn": "8517", "rate": "18%", "tariff": "Telecommunication equipment"},
+  {"keyword": "battery", "hsn": "8507", "rate": "18%", "tariff": "Electric accumulators and batteries"},
+  {"keyword": "inverter", "hsn": "8504", "rate": "18%", "tariff": "Electrical transformers and inverters"},
+  {"keyword": "television", "hsn": "8528", "rate": "18%", "tariff": "Television receivers"},
+  {"keyword": "speaker", "hsn": "8518", "rate": "18%", "tariff": "Speakers and audio apparatus"},
+  {"keyword": "cctv camera", "hsn": "8525", "rate": "18%", "tariff": "Cameras and surveillance equipment"},
+
+  {"keyword": "railway locomotive", "hsn": "8601", "rate": "18%", "tariff": "Rail locomotives"},
+  {"keyword": "rail wagons", "hsn": "8606", "rate": "18%", "tariff": "Railway goods wagons"},
+  {"keyword": "rail parts", "hsn": "8607", "rate": "18%", "tariff": "Parts of railway locomotives"},
+
+  {"keyword": "airplane parts", "hsn": "8803", "rate": "18%", "tariff": "Aircraft parts"},
+  {"keyword": "helicopter", "hsn": "8802", "rate": "18%", "tariff": "Helicopters"},
+  {"keyword": "drone", "hsn": "8806", "rate": "18%", "tariff": "Unmanned aircraft (drones)"},
+
+  {"keyword": "boats", "hsn": "8903", "rate": "18%", "tariff": "Yachts, motorboats"},
+  {"keyword": "fishing boat", "hsn": "8902", "rate": "5%", "tariff": "Fishing vessels"},
+  {"keyword": "ship parts", "hsn": "8908", "rate": "18%", "tariff": "Parts of ships"},
+
+  {"keyword": "eyeglasses", "hsn": "9004", "rate": "18%", "tariff": "Spectacles and frames"},
+  {"keyword": "microscope", "hsn": "9011", "rate": "18%", "tariff": "Microscopes"},
+  {"keyword": "thermometer", "hsn": "9025", "rate": "18%", "tariff": "Thermometers"},
+  {"keyword": "xray machine", "hsn": "9022", "rate": "18%", "tariff": "X-ray apparatus"},
+  {"keyword": "bp monitor", "hsn": "9027", "rate": "18%", "tariff": "Medical diagnostic instruments"}
+
 ]
