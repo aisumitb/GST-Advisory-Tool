@@ -115,7 +115,7 @@
   {"keyword": "vegetables mixed", "hsn": "0710", "rate": "0%", "tariff": "Frozen vegetables"},
   {"keyword": "dried vegetables", "hsn": "0712", "rate": "0%", "tariff": "Dried vegetables"},
   
-  {"keyword": "almond", "hsn": "0802", "rate": "5%", "tariff": "Other Nuts"},
+{"keyword": "almond", "hsn": "0802", "rate": "5%", "tariff": "Other Nuts"},
 {"keyword": "walnut", "hsn": "0802", "rate": "5%", "tariff": "Other Nuts"},
 {"keyword": "hazelnut", "hsn": "0802", "rate": "5%", "tariff": "Other Nuts"},
 {"keyword": "pistachio", "hsn": "0802", "rate": "5%", "tariff": "Other Nuts"},
@@ -204,7 +204,7 @@
   {"keyword": "pizza seasoning", "hsn": "0910", "rate": "5%", "tariff": "Spice and herb seasoning"},
   {"keyword": "pasta seasoning", "hsn": "0910", "rate": "5%", "tariff": "Spice and herb seasoning"},
   {"keyword": "spicemix", "hsn": "0910", "rate": "5%", "tariff": "Mixed spices not elsewhere classified"},
- {"keyword": "mixed spices", "hsn": "0910", "rate": "5%", "tariff": "Mixed spices not elsewhere classified"},
+  {"keyword": "mixed spices", "hsn": "0910", "rate": "5%", "tariff": "Mixed spices not elsewhere classified"},
   {"keyword": "nutmeg powder", "hsn": "0910", "rate": "5%", "tariff": "Spice powders"},
   {"keyword": "mace powder", "hsn": "0910", "rate": "5%", "tariff": "Spice powders"},
   {"keyword": "cumin powder", "hsn": "0910", "rate": "5%", "tariff": "Spice powders"},
@@ -324,8 +324,6 @@
   {"keyword": "mineral water", "hsn": "2201", "rate": "0%", "tariff": "Mineral and aerated water"},
   {"keyword": "soft drink", "hsn": "2202", "rate": "0%", "tariff": "Aerated beverages with added sugar"},
   {"keyword": "fruit juice", "hsn": "2202", "rate": "0%", "tariff": "Fruit juices and beverages"},
-  {"keyword": "beer", "hsn": "2203", "rate": "NA", "tariff": "Beer made from malt"},
-  {"keyword": "wine", "hsn": "2204", "rate": "NA", "tariff": "Wine from grapes"},
   {"keyword": "vinegar", "hsn": "2209", "rate": "18%", "tariff": "Vinegar and substitutes"},
 
   {"keyword": "cattle feed", "hsn": "2309", "rate": "5%", "tariff": "Preparations of a kind used in animal feeding"},
@@ -348,8 +346,7 @@
   {"keyword": "copper ore", "hsn": "2603", "rate": "5%", "tariff": "Copper ores"},
   {"keyword": "aluminium ore", "hsn": "2606", "rate": "5%", "tariff": "Aluminium ores and concentrates"},
 
-  {"keyword": "petrol", "hsn": "2710", "rate": "NA", "tariff": "Motor spirit"},
-  {"keyword": "diesel", "hsn": "2710", "rate": "NA", "tariff": "High-speed diesel"},
+  
   {"keyword": "lpg", "hsn": "2711", "rate": "5%", "tariff": "Liquefied petroleum gas"},
   {"keyword": "kerosene", "hsn": "2710", "rate": "5%", "tariff": "Kerosene oil"},
   {"keyword": "bitumen", "hsn": "2714", "rate": "18%", "tariff": "Bituminous materials"},
@@ -991,3 +988,4 @@
   {"keyword": "stamps collection", "hsn": "9704", "rate": "5%", "tariff": "Collectors’ items"}
 
 ]
+
