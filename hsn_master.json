@@ -346,7 +346,6 @@
   {"keyword": "copper ore", "hsn": "2603", "rate": "5%", "tariff": "Copper ores"},
   {"keyword": "aluminium ore", "hsn": "2606", "rate": "5%", "tariff": "Aluminium ores and concentrates"},
 
-  
   {"keyword": "lpg", "hsn": "2711", "rate": "5%", "tariff": "Liquefied petroleum gas"},
   {"keyword": "kerosene", "hsn": "2710", "rate": "5%", "tariff": "Kerosene oil"},
   {"keyword": "bitumen", "hsn": "2714", "rate": "18%", "tariff": "Bituminous materials"},
@@ -414,35 +413,35 @@
 
   {"keyword": "raw hides", "hsn": "4101", "rate": "5%", "tariff": "Raw hides and skins of bovine animals"},
   {"keyword": "raw goat skins", "hsn": "4103", "rate": "5%", "tariff": "Raw hides and skins of goats"},
-  {"keyword": "tanned leather", "hsn": "4107", "rate": "12%", "tariff": "Leather further prepared after tanning"},
+  {"keyword": "tanned leather", "hsn": "4107", "rate": "5%", "tariff": "Leather further prepared after tanning"},
 
   {"keyword": "leather wallet", "hsn": "4202", "rate": "18%", "tariff": "Handbags, wallets, travel goods"},
   {"keyword": "leather belt", "hsn": "4203", "rate": "18%", "tariff": "Articles of apparel of leather"},
   {"keyword": "leather gloves", "hsn": "4203", "rate": "18%", "tariff": "Leather gloves and clothing accessories"},
 
-  {"keyword": "fur skins", "hsn": "4301", "rate": "12%", "tariff": "Raw furskins"},
+  {"keyword": "fur skins", "hsn": "4301", "rate": "18%", "tariff": "Raw furskins"},
   {"keyword": "fur clothing", "hsn": "4303", "rate": "18%", "tariff": "Articles of apparel made of fur"},
 
   {"keyword": "wood logs", "hsn": "4403", "rate": "5%", "tariff": "Wood in the rough"},
   {"keyword": "plywood", "hsn": "4412", "rate": "18%", "tariff": "Plywood, veneered panels"},
   {"keyword": "wood veneer", "hsn": "4408", "rate": "18%", "tariff": "Sheets for veneering"},
 
-  {"keyword": "natural cork", "hsn": "4501", "rate": "12%", "tariff": "Natural cork, raw or crushed"},
-  {"keyword": "cork stoppers", "hsn": "4503", "rate": "12%", "tariff": "Articles of natural cork"},
+  {"keyword": "natural cork", "hsn": "4501", "rate": "5%", "tariff": "Natural cork, raw or crushed"},
+  {"keyword": "cork stoppers", "hsn": "4503", "rate": "5%", "tariff": "Articles of natural cork"},
 
-  {"keyword": "bamboo basket", "hsn": "4602", "rate": "12%", "tariff": "Basketwork and wickerwork"},
-  {"keyword": "straw mat", "hsn": "4601", "rate": "12%", "tariff": "Plaiting materials and mats"},
+  {"keyword": "bamboo basket", "hsn": "4602", "rate": "5%", "tariff": "Basketwork and wickerwork"},
+  {"keyword": "straw mat", "hsn": "4601", "rate": "5%", "tariff": "Plaiting materials and mats"},
   
-  {"keyword": "wood pulp", "hsn": "4701", "rate": "12%", "tariff": "Mechanical wood pulp"},
-  {"keyword": "chemical pulp", "hsn": "4702", "rate": "12%", "tariff": "Chemical wood pulp"},
+  {"keyword": "wood pulp", "hsn": "4701", "rate": "5%", "tariff": "Mechanical wood pulp"},
+  {"keyword": "chemical pulp", "hsn": "4702", "rate": "18%", "tariff": "Chemical wood pulp"},
   
-  {"keyword": "a4 paper", "hsn": "4802", "rate": "12%", "tariff": "Uncoated writing and printing paper"},
-  {"keyword": "kraft paper", "hsn": "4804", "rate": "12%", "tariff": "Unbleached kraft paper"},
+  {"keyword": "a4 paper", "hsn": "4802", "rate": "18%", "tariff": "Uncoated writing and printing paper"},
+  {"keyword": "kraft paper", "hsn": "4804", "rate": "18%", "tariff": "Unbleached kraft paper"},
   {"keyword": "corrugated paper", "hsn": "4808", "rate": "18%", "tariff": "Paper and paperboard, corrugated"},
 
   {"keyword": "books", "hsn": "4901", "rate": "0%", "tariff": "Printed books"},
   {"keyword": "newspaper", "hsn": "4902", "rate": "0%", "tariff": "Newspapers"},
-  {"keyword": "printed pictures", "hsn": "4911", "rate": "12%", "tariff": "Other printed matter"},
+  {"keyword": "printed pictures", "hsn": "4911", "rate": "18%", "tariff": "Other printed matter"},
 
   {"keyword": "silk", "hsn": "5001", "rate": "0%", "tariff": "Silk-worm cocoons suitable for reeling"},
   {"keyword": "mulberry cocoon", "hsn": "5001", "rate": "0%", "tariff": "Cocoons suitable for reeling"},
@@ -986,6 +985,4 @@
   {"keyword": "sculpture", "hsn": "9703", "rate": "5%", "tariff": "Sculptures"},
   {"keyword": "antique", "hsn": "9706", "rate": "5%", "tariff": "Antiques over 100 years old"},
   {"keyword": "stamps collection", "hsn": "9704", "rate": "5%", "tariff": "Collectors’ items"}
-
 ]
-
