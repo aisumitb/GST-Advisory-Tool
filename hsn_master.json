@@ -956,7 +956,7 @@
   {"keyword": "piano", "hsn": "9201", "rate": "18%", "tariff": "Pianos and keyboards"},
   {"keyword": "flute", "hsn": "9206", "rate": "18%", "tariff": "Wind instruments"},
   {"keyword": "drums", "hsn": "9206", "rate": "18%", "tariff": "Percussion instruments"},
-  {"keyword": "musical accessories", "hsn": "9209", "rate": "18%", "tariff": "Musical instrument parts and accessories"}
+  {"keyword": "musical accessories", "hsn": "9209", "rate": "18%", "tariff": "Musical instrument parts and accessories"},
 
   {"keyword": "airgun", "hsn": "9304", "rate": "18%", "tariff": "Other firearms"},
   {"keyword": "revolver", "hsn": "9302", "rate": "18%", "tariff": "Revolvers and pistols"},
@@ -986,3 +986,4 @@
   {"keyword": "antique", "hsn": "9706", "rate": "5%", "tariff": "Antiques over 100 years old"},
   {"keyword": "stamps collection", "hsn": "9704", "rate": "5%", "tariff": "Collectors’ items"}
 ]
+
