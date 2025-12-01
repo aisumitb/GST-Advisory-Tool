@@ -308,6 +308,22 @@
   {"keyword": "biscuits", "hsn": "1905", "rate": "5%", "tariff": "Biscuits"},
   {"keyword": "noodles", "hsn": "1902", "rate": "5%", "tariff": "Pasta, noodles"},
   {"keyword": "corn flakes", "hsn": "1904", "rate": "5%", "tariff": "Prepared cereals"},
+  {"keyword": "muesli", "hsn": "1904", "rate": "5%", "tariff": "Cereal muesli"},
+  {"keyword": "puffed rice", "hsn": "1904", "rate": "0%", "tariff": "Puffed rice (murmura)"},
+  {"keyword": "murmura", "hsn": "1904", "rate": "0%", "tariff": "Puffed rice"},
+  {"keyword": "rice puffs", "hsn": "1904", "rate": "0%", "tariff": "Expanded rice"},
+  {"keyword": "wheat puffs", "hsn": "1904", "rate": "0%", "tariff": "Puffed wheat"},
+  {"keyword": "puffed wheat", "hsn": "1904", "rate": "0%", "tariff": "Cereal puffed grains"},
+  {"keyword": "cereal bars", "hsn": "1904", "rate": "18%", "tariff": "Cereal-based snack bars"},
+  {"keyword": "granola", "hsn": "1904", "rate": "18%", "tariff": "Granola mixes"},
+  {"keyword": "oat flakes", "hsn": "1904", "rate": "5%", "tariff": "Rolled or flaked oats"},
+  {"keyword": "wheat flakes", "hsn": "1904", "rate": "5%", "tariff": "Rolled or flaked wheat"},
+  {"keyword": "rice flakes", "hsn": "1904", "rate": "5%", "tariff": "Flaked rice (poha type processed)"},
+  {"keyword": "cereal flakes", "hsn": "1904", "rate": "5%", "tariff": "Flaked cereals"},
+  {"keyword": "instant cereal", "hsn": "1904", "rate": "18%", "tariff": "Instant cereal mixes"},
+  {"keyword": "breakfast cereal", "hsn": "1904", "rate": "5%", "tariff": "Processed breakfast cereals"},
+  {"keyword": "cereal mix", "hsn": "1904", "rate": "18%", "tariff": "Processed cereal mixture"},
+  {"keyword": "choco flakes", "hsn": "1904", "rate": "18%", "tariff": "Chocolate-coated cereal flakes"},
 
   {"keyword": "pickles", "hsn": "2001", "rate": "5%", "tariff": "Vegetables preserved"},
   {"keyword": "jam", "hsn": "2007", "rate": "5%", "tariff": "Fruit jams and jellies"},
@@ -986,4 +1002,5 @@
   {"keyword": "antique", "hsn": "9706", "rate": "5%", "tariff": "Antiques over 100 years old"},
   {"keyword": "stamps collection", "hsn": "9704", "rate": "5%", "tariff": "Collectors’ items"}
 ]
+
 
