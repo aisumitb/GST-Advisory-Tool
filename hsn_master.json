@@ -822,51 +822,50 @@
   {"keyword": "steel chain", "hsn": "7315", "rate": "18%", "tariff": "Iron or steel chains"},
   {"keyword": "steel nail", "hsn": "7317", "rate": "18%", "tariff": "Nails, tacks, screws, bolts"},
 
-  {"keyword": "copper rod", "hsn": "7408", "rate": "18%", "tariff": "Copper rods"},
-  {"keyword": "copper wire", "hsn": "7408", "rate": "18%", "tariff": "Copper wire"},
-  {"keyword": "copper pipe", "hsn": "7411", "rate": "18%", "tariff": "Copper tubes and pipes"},
-  {"keyword": "copper fitting", "hsn": "7412", "rate": "18%", "tariff": "Copper tube fittings"},
-  {"keyword": "copper scrap", "hsn": "7404", "rate": "18%", "tariff": "Copper waste and scrap"},
   {"keyword": "copper matte", "hsn": "7401", "rate": "18%", "tariff": "Copper mattes"},
   {"keyword": "blister copper matte", "hsn": "7401", "rate": "18%", "tariff": "Copper mattes"},
+
   {"keyword": "unrefined copper", "hsn": "7402", "rate": "18%", "tariff": "Unrefined copper; copper anodes"},
   {"keyword": "copper anode", "hsn": "7402", "rate": "18%", "tariff": "Copper anodes for electrolytic refining"},
   {"keyword": "copper blister", "hsn": "7402", "rate": "18%", "tariff": "Unrefined blister copper"},
+
   {"keyword": "refined copper", "hsn": "7403", "rate": "18%", "tariff": "Refined copper and copper alloys, unwrought"},
   {"keyword": "copper cathode", "hsn": "7403", "rate": "18%", "tariff": "Refined copper cathodes"},
   {"keyword": "copper wirebars", "hsn": "7403", "rate": "18%", "tariff": "Copper wire-bars"},
-  {"keyword": "copper ingots", "hsn": "7403", "rate": "18%", "tariff": "Copper ingots/unwrought copper"},
+  {"keyword": "copper ingots", "hsn": "7403", "rate": "18%", "tariff": "Copper ingots / unwrought copper"},
+
+  {"keyword": "copper scrap", "hsn": "7404", "rate": "18%", "tariff": "Copper waste and scrap"},
+
   {"keyword": "copper master alloy", "hsn": "7405", "rate": "18%", "tariff": "Master alloys of copper"},
   {"keyword": "bronze master alloy", "hsn": "7405", "rate": "18%", "tariff": "Copper alloy master blends"},
+
   {"keyword": "copper powder", "hsn": "7406", "rate": "18%", "tariff": "Copper powders"},
   {"keyword": "copper flakes", "hsn": "7406", "rate": "18%", "tariff": "Copper flakes"},
   {"keyword": "copper metal powder", "hsn": "7406", "rate": "18%", "tariff": "Metallic copper powder"},
+
   {"keyword": "copper rods", "hsn": "7407", "rate": "18%", "tariff": "Copper bars, rods and profiles"},
   {"keyword": "copper bars", "hsn": "7407", "rate": "18%", "tariff": "Copper bars"},
   {"keyword": "copper profiles", "hsn": "7407", "rate": "18%", "tariff": "Copper extruded profiles"},
+
+  {"keyword": "copper rod", "hsn": "7408", "rate": "18%", "tariff": "Copper rods"},
+  {"keyword": "copper wire", "hsn": "7408", "rate": "18%", "tariff": "Copper wire"},
+
   {"keyword": "copper sheets", "hsn": "7409", "rate": "18%", "tariff": "Copper plates and sheets"},
   {"keyword": "copper plates", "hsn": "7409", "rate": "18%", "tariff": "Copper plates"},
   {"keyword": "rolled copper sheet", "hsn": "7409", "rate": "18%", "tariff": "Cold-rolled copper sheets"},
+
   {"keyword": "copper foil", "hsn": "7410", "rate": "18%", "tariff": "Copper foil"},
   {"keyword": "electrolytic copper foil", "hsn": "7410", "rate": "18%", "tariff": "Electrodeposited copper foil"},
   {"keyword": "battery copper foil", "hsn": "7410", "rate": "18%", "tariff": "Foil for batteries and electronics"},
+
   {"keyword": "copper stranded wire", "hsn": "7413", "rate": "18%", "tariff": "Stranded wire of copper"},
   {"keyword": "copper cable", "hsn": "7413", "rate": "18%", "tariff": "Copper cables and braids"},
   {"keyword": "copper braided wire", "hsn": "7413", "rate": "18%", "tariff": "Copper braids"},
+
   {"keyword": "copper screws", "hsn": "7415", "rate": "18%", "tariff": "Screws, bolts & nuts of copper"},
   {"keyword": "copper bolts", "hsn": "7415", "rate": "18%", "tariff": "Copper bolts and fasteners"},
   {"keyword": "copper nails", "hsn": "7415", "rate": "18%", "tariff": "Copper nails"},
   {"keyword": "copper hardware", "hsn": "7415", "rate": "18%", "tariff": "Copper household and industrial hardware"},
-
-
-
-
-
-
-
-
-
-
   
   {"keyword": "nickel plate", "hsn": "7506", "rate": "18%", "tariff": "Plates, sheets of nickel"},
   {"keyword": "nickel tube", "hsn": "7507", "rate": "18%", "tariff": "Nickel tubes and pipes"},
@@ -1042,6 +1041,3 @@
   {"keyword": "antique", "hsn": "9706", "rate": "5%", "tariff": "Antiques over 100 years old"},
   {"keyword": "stamps collection", "hsn": "9704", "rate": "5%", "tariff": "Collectors’ items"}
 ]
-
-
-
