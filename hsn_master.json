@@ -909,6 +909,58 @@
   {"keyword": "hinges", "hsn": "8302", "rate": "18%", "tariff": "Hinges and hardware fittings"},
   {"keyword": "safes", "hsn": "8303", "rate": "18%", "tariff": "Strongboxes and safes"},
   {"keyword": "photoframes", "hsn": "8306", "rate": "18%", "tariff": "Photograph and decorative frames"},
+  {"keyword": "filing cabinet", "hsn": "8304", "rate": "18%", "tariff": "Filing cabinets of base metal"},
+  {"keyword": "office cabinet", "hsn": "8304", "rate": "18%", "tariff": "Office equipment of base metal"},
+  {"keyword": "index filing cabinet", "hsn": "8304", "rate": "18%", "tariff": "Filing, card-index cabinets"},
+  {"keyword": "metal filing drawer", "hsn": "8304", "rate": "18%", "tariff": "Base metal drawers for office use"},
+  {"keyword": "padlock", "hsn": "8305", "rate": "18%", "tariff": "Padlocks of base metal"},
+  {"keyword": "door lock", "hsn": "8305", "rate": "18%", "tariff": "Locks for doors and furniture"},
+  {"keyword": "cabinet lock", "hsn": "8305", "rate": "18%", "tariff": "Furniture locks"},
+  {"keyword": "security lock", "hsn": "8305", "rate": "18%", "tariff": "Security locking systems"},
+  {"keyword": "metal lock", "hsn": "8305", "rate": "18%", "tariff": "Locks of base metal"},
+  {"keyword": "metal flexible tubing", "hsn": "8307", "rate": "18%", "tariff": "Flexible tubing of base metal"},
+  {"keyword": "steel flexible hose", "hsn": "8307", "rate": "18%", "tariff": "Flexible metal hoses"},
+  {"keyword": "metal conduit pipe", "hsn": "8307", "rate": "18%", "tariff": "Flexible conduits of base metal"},
+  {"keyword": "metal clasp", "hsn": "8308", "rate": "18%", "tariff": "Clasps, frames & mountings"},
+  {"keyword": "belt buckle", "hsn": "8308", "rate": "18%", "tariff": "Base metal buckles"},
+  {"keyword": "bag hook", "hsn": "8308", "rate": "18%", "tariff": "Hooks for handbags and articles"},
+  {"keyword": "metal fastener", "hsn": "8308", "rate": "18%", "tariff": "Fasteners for clothing or bags"},
+  {"keyword": "zip slider metal", "hsn": "8308", "rate": "18%", "tariff": "Metal components for zippers"},
+  {"keyword": "metal bottle cap", "hsn": "8309", "rate": "18%", "tariff": "Stoppers, caps and lids of base metal"},
+  {"keyword": "metal cap", "hsn": "8309", "rate": "18%", "tariff": "Metal closures"},
+  {"keyword": "drum cap seal", "hsn": "8309", "rate": "18%", "tariff": "Sealing caps for drums"},
+  {"keyword": "metal sealing cap", "hsn": "8309", "rate": "18%", "tariff": "Sealers and closures of base metal"},
+  {"keyword": "name plate metal", "hsn": "8310", "rate": "18%", "tariff": "Sign plates, name plates"},
+  {"keyword": "metal label plate", "hsn": "8310", "rate": "18%", "tariff": "Label plates of base metal"},
+  {"keyword": "address plate metal", "hsn": "8310", "rate": "18%", "tariff": "Address plates of base metal"},
+  {"keyword": "metal signage", "hsn": "8310", "rate": "18%", "tariff": "Signage and informational plates"},
+  {"keyword": "welding rod", "hsn": "8311", "rate": "18%", "tariff": "Coated welding rods"},
+  {"keyword": "welding electrode", "hsn": "8311", "rate": "18%", "tariff": "Welding electrodes"},
+  {"keyword": "welding wire", "hsn": "8311", "rate": "18%", "tariff": "Wire for welding"},
+  {"keyword": "mig welding wire", "hsn": "8311", "rate": "18%", "tariff": "Metal inert gas welding wires"},
+  {"keyword": "tig welding rod", "hsn": "8311", "rate": "18%", "tariff": "TIG welding rods"},
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
 
   {"keyword": "engines", "hsn": "8407", "rate": "18%", "tariff": "Engines and motors"},
   {"keyword": "pumps", "hsn": "8413", "rate": "18%", "tariff": "Pumps for liquids"},
@@ -1041,4 +1093,5 @@
   {"keyword": "antique", "hsn": "9706", "rate": "5%", "tariff": "Antiques over 100 years old"},
   {"keyword": "stamps collection", "hsn": "9704", "rate": "5%", "tariff": "Collectors’ items"}
 ]
+
 
