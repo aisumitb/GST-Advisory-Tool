@@ -912,7 +912,7 @@
 
   {"keyword": "engines", "hsn": "8407", "rate": "18%", "tariff": "Engines and motors"},
   {"keyword": "pumps", "hsn": "8413", "rate": "18%", "tariff": "Pumps for liquids"},
-  {"keyword": "air conditioner", "hsn": "8415", "rate": "28%", "tariff": "Air conditioning machines"},
+  {"keyword": "air conditioner", "hsn": "8415", "rate": "18%", "tariff": "Air conditioning machines"},
   {"keyword": "refrigerator", "hsn": "8418", "rate": "18%", "tariff": "Refrigerators and freezers"},
   {"keyword": "washing machine", "hsn": "8450", "rate": "18%", "tariff": "Household washing machines"},
   {"keyword": "printing machine", "hsn": "8443", "rate": "18%", "tariff": "Printing machinery"},
@@ -1041,3 +1041,4 @@
   {"keyword": "antique", "hsn": "9706", "rate": "5%", "tariff": "Antiques over 100 years old"},
   {"keyword": "stamps collection", "hsn": "9704", "rate": "5%", "tariff": "Collectors’ items"}
 ]
+
