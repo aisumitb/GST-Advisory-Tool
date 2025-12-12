@@ -57,22 +57,6 @@
       </select>
     </div>
   </div>
-<select id="tariffSelect">
-  <option value="">-- Select Tariff Category --</option>
-</select>
-
-<div id="tariffResults"></div>
-
-
-
-
-
-
-
-
-
-
-  
 
   <button id="calculateBtn">Get Advisory</button>
   <button id="clearBtn" style="background:#888;">Clear</button>
@@ -83,6 +67,16 @@
     <label>GST Rate:</label><input id="rate" readonly>
     <label>Tariff / Classification:</label><textarea id="tariff" rows="2" readonly></textarea>
   </div>
+</div>
+<!-- Tariff Category Dropdown -->
+<label for="tariffSelect"><b>Select Tariff Category:</b></label>
+<select id="tariffSelect" onchange="loadTariffItems()">
+  <option value="">-- Select --</option>
+</select>
+
+<!-- This box will show all items belonging to the selected tariff -->
+<div id="tariffItemsBox" 
+     style="margin-top:10px; padding:10px; border:1px solid #ccc; display:none;">
 </div>
 
 <script>
@@ -156,7 +150,78 @@ document.getElementById("clearBtn").addEventListener("click", function () {
 });
 
 
+function loadTariffDropdown() {
+    const tariffs = [...new Set(hsnMaster.map(item => item.tariff))];
+
+    const select = document.getElementById("tariffSelect");
+    tariffs.forEach(t => {
+        const opt = document.createElement("option");
+        opt.value = t;
+        opt.textContent = t;
+        select.appendChild(opt);
+    });
+}
+
+function loadTariffItems() {
+    const selected = document.getElementById("tariffSelect").value;
+    const box = document.getElementById("tariffItemsBox");
+
+    if (!selected) {
+        box.style.display = "none";
+        return;
+    }
+
+    const items = hsnMaster.filter(item => item.tariff === selected);
+
+    box.innerHTML = "<b>Items under:</b> " + selected + "<br><br>";
+
+    items.forEach(item => {
+        box.innerHTML += `${item.keyword} — HSN: ${item.hsn}, Rate: ${item.rate}<br>`;
+    });
+
+    box.style.display = "block";
+}
+
+window.onload = loadTariffDropdown;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
 </script>
+
 
 
 
