@@ -92,6 +92,33 @@ async function loadHSNData() {
     alert("Error loading HSN data. Please check hsn_master.json");
   }
 }
+// STEP 1: Populate tariff dropdown
+function populateTariffDropdown() {
+    const tariffSet = new Set();
+    hsnMaster.forEach(item => tariffSet.add(item.tariff));
+
+    tariffSet.forEach(t => {
+        const option = document.createElement("option");
+        option.value = t;
+        option.textContent = t;
+        tariffSelect.appendChild(option);
+    });
+}
+
+populateTariffDropdown();
+
+
+
+
+
+
+
+
+
+
+
+
+  
 
 // Optimized search for large data
 function findHSN(description) {
