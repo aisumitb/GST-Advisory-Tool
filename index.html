@@ -68,16 +68,6 @@
     <label>Tariff / Classification:</label><textarea id="tariff" rows="2" readonly></textarea>
   </div>
 </div>
-<!-- Tariff Category Dropdown -->
-<label for="tariffSelect"><b>Select Tariff Category:</b></label>
-<select id="tariffSelect" onchange="loadTariffItems()">
-  <option value="">-- Select --</option>
-</select>
-
-<!-- This box will show all items belonging to the selected tariff -->
-<div id="tariffItemsBox" 
-     style="margin-top:10px; padding:10px; border:1px solid #ccc; display:none;">
-</div>
 
 <script>
 let hsnMaster = [];
@@ -92,20 +82,6 @@ async function loadHSNData() {
     alert("Error loading HSN data. Please check hsn_master.json");
   }
 }
-// STEP 1: Populate tariff dropdown
-function populateTariffDropdown() {
-    const tariffSet = new Set();
-    hsnMaster.forEach(item => tariffSet.add(item.tariff));
-
-    tariffSet.forEach(t => {
-        const option = document.createElement("option");
-        option.value = t;
-        option.textContent = t;
-        tariffSelect.appendChild(option);
-    });
-}
-
-populateTariffDropdown();
 
 
 
@@ -177,40 +153,6 @@ document.getElementById("clearBtn").addEventListener("click", function () {
 });
 
 
-function loadTariffDropdown() {
-    const tariffs = [...new Set(hsnMaster.map(item => item.tariff))];
-
-    const select = document.getElementById("tariffSelect");
-    tariffs.forEach(t => {
-        const opt = document.createElement("option");
-        opt.value = t;
-        opt.textContent = t;
-        select.appendChild(opt);
-    });
-}
-
-function loadTariffItems() {
-    const selected = document.getElementById("tariffSelect").value;
-    const box = document.getElementById("tariffItemsBox");
-
-    if (!selected) {
-        box.style.display = "none";
-        return;
-    }
-
-    const items = hsnMaster.filter(item => item.tariff === selected);
-
-    box.innerHTML = "<b>Items under:</b> " + selected + "<br><br>";
-
-    items.forEach(item => {
-        box.innerHTML += `${item.keyword} — HSN: ${item.hsn}, Rate: ${item.rate}<br>`;
-    });
-
-    box.style.display = "block";
-}
-
-window.onload = loadTariffDropdown;
-
 
 
 
@@ -248,6 +190,7 @@ window.onload = loadTariffDropdown;
 
 
 </script>
+
 
 
 
