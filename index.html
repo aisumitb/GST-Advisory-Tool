@@ -96,28 +96,19 @@ function parseCSV(csvText) {
   return data;
 }
 
-// Load HSN data from hardcoded Google Sheets CSV URL (backend)
+// Load HSN data from hardcoded Google Sheets CSV URL (backend) - silent loading
 async function loadHSNData() {
   const csvUrl = document.getElementById('csvUrl').value;
   try {
-    showStatus('Loading HSN data...', 'loading');
     const res = await fetch(csvUrl);
     if (!res.ok) throw new Error(`HTTP ${res.status}`);
     const csvText = await res.text();
     hsnMaster = parseCSV(csvText);
-    showStatus(`Loaded HSN records successfully.`, 'success');
-    console.log(`Loaded ${hsnMaster.length} HSN records`);
+    console.log(`Loaded ${hsnMaster.length} HSN records silently`);
   } catch (err) {
     hsnMaster = [];
-    showStatus(`Error loading HSN data: ${err.message}. Please contact administrator.`, 'error');
-    console.error(err);
+    console.error('HSN data load failed:', err);
   }
-}
-
-function showStatus(msg, type) {
-  const statusEl = document.getElementById('status');
-  statusEl.textContent = msg;
-  statusEl.style.color = type === 'error' ? '#d32f2f' : type === 'loading' ? '#ff9800' : '#4caf50';
 }
 
 function findHSN(description) {
@@ -143,7 +134,10 @@ async function calculateGST() {
   }
   if (hsnMaster.length === 0) {
     await loadHSNData();
-    if (hsnMaster.length === 0) return;
+    if (hsnMaster.length === 0) {
+      alert("HSN data unavailable. Please contact administrator.");
+      return;
+    }
   }
 
   const billing = origin === dest ? "Intrastate (CGST + SGST)" : "Interstate (IGST)";
@@ -174,4 +168,3 @@ document.getElementById("clearBtn").addEventListener("click", function () {
 </script>
 </body>
 </html>
-
