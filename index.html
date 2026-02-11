@@ -124,15 +124,9 @@ async function loadHSNData() {
   function populateGoodsDropdown() {
   const dropdown = document.getElementById("goodsInput");
 
-  // Clear existing options (except first)
   dropdown.innerHTML = '<option value="">-- Select Goods --</option>';
 
-  // Sort keywords alphabetically
-  const sortedData = [...hsnMaster].sort((a, b) =>
-    a.keyword.localeCompare(b.keyword)
-  );
-
-  sortedData.forEach(item => {
+  hsnMaster.forEach(item => {
     const option = document.createElement("option");
     option.value = item.keyword;
     option.textContent = item.keyword;
@@ -218,6 +212,7 @@ document.getElementById("clearBtn").addEventListener("click", function () {
   
  
 </html>
+
 
 
 
