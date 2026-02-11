@@ -134,10 +134,10 @@ async function loadHSNData() {
   });
 }
   // Call function when page loads
-window.onload = function () {
-  populateGoodsDropdown();
+window.onload = async function () {
+  await loadHSNData();      // Load Google Sheet first
+  populateGoodsDropdown();  // Then populate dropdown
 };
-
 function findHSN(keyword) {
   return hsnMaster.find(item =>
     item.keyword.toLowerCase() === keyword.toLowerCase()
@@ -161,7 +161,7 @@ function findHSN(keyword) {
 }
 
 async function calculateGST() {
-  const desc = document.getElementById("desc").value.trim();
+ const desc = document.getElementById("goodsInput").value;
   const origin = document.getElementById("origin").value;
   const dest = document.getElementById("dest").value;
 
@@ -197,7 +197,7 @@ document.getElementById("clearBtn").addEventListener("click", function () {
   document.getElementById("tariff").value = "";
   document.getElementById("outputBox").style.display = "none";
   document.getElementById("status").textContent = "";
-  document.getElementById("desc").value = "";
+  document.getElementById("goodsInput").value = "";
   document.getElementById("origin").value = "";
   document.getElementById("dest").value = "";
   hsnMaster = [];
@@ -212,6 +212,7 @@ document.getElementById("clearBtn").addEventListener("click", function () {
   
  
 </html>
+
 
 
 
